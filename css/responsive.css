@@ -1,0 +1,481 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+/* =========navbar responsive css========= */
+    #navbar {
+        background: rgba(0, 0, 0, .4);
+        
+    }
+    #navbar .navbar-brand {
+        font-size: 30px;
+    }
+    #navbar .navbar-toggler {
+        border: none;
+        color: white;
+        font-size: 28px;
+        rotate: 180deg;
+    }
+    #navbar .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #navbar .navbar-nav .nav-item .nav-link {
+        display: inline-block;
+    }
+
+/* =========banner_part responsive css==== */
+    #banner_part .text h2 {
+        margin-bottom: 24px;
+    }
+    #banner_part .text h1 {
+        font-size: 75px;
+        line-height: 65px;
+    }
+    #banner_part .text h3 {
+        margin-top: 20px;
+        font-size: 55px;
+    }
+
+/* =========blog_part responsive css====== */
+    .blog_part {
+        padding: 100px 0;
+    }
+    .blog_part .blog_text h3 {
+        margin-top: 24px;
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    .blog_part .blog_text h2 {
+        font-size: 37px;
+        line-height: 60px;
+    }
+    .blog_part .blog_text p {
+        font-size: 13px;
+        line-height: 23px;
+        margin: 10px 0;
+        text-align: justify;
+    }
+    .blog_part .blog_text a {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+/* =========information responsive css==== */
+    #information .banner-2 {
+        padding: 170px 0 15px;
+    }
+    #information .banner-2 .text h3 {
+        font-size: 16px;
+    }
+    #information .banner-2 .text h2 {
+        width: 100%;
+        font-size: 45px;
+        line-height: 50px;
+        margin: 10px 0;
+    }
+    #information .banner-2 .text p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+    #information .banner-2 .text a {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+/* =========contact_us responsive css===== */
+    #contact_us {
+        margin: 20px 0 10px;
+    }
+    #contact_us .top h2 {
+        font-size: 35px;
+        line-height: 65px;
+    }
+    #contact_us .top h5 {
+        font-size: 18px;
+    }
+    #contact_us .top button {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 10px 14px;
+        margin-left: 50px;
+    }
+    #contact_us .left h3 {
+        font-size: 31px;
+        width: 100%;
+        margin: 25px 0 15px;
+        line-height: 40px;
+    }
+    #contact_us .left a {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #contact_us .left .icons i {
+        font-size: 18px;
+        height: 35px;
+        width: 35px;
+        line-height: 33px;
+    }
+    #contact_us h4 {
+        margin: 25px 0 15px;
+    }
+    #contact_us ul li {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+/* =========footer responsive css========= */
+    #footer{
+        padding: 10px 0 15px !important;
+    }
+    #footer p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/* =========navbar responsive css========= */
+    #navbar {
+        background: rgba(0, 0, 0, .4);
+        
+    }
+    #navbar .navbar-brand {
+        font-size: 32px;
+    }
+    #navbar .navbar-toggler {
+        border: none;
+        color: white;
+        font-size: 28px;
+        rotate: 180deg;
+    }
+    #navbar .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #navbar .navbar-nav .nav-item .nav-link {
+        display: inline-block;
+    }
+
+/* =========banner_part responsive css==== */
+    #banner_part .text h2 {
+        margin-bottom: 24px;
+    }
+    #banner_part .text h1 {
+        font-size: 85px;
+        line-height: 90px;
+    }
+    #banner_part .text h3 {
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+/* =========blog_part responsive css====== */
+    .blog_part {
+        padding: 100px 0;
+    }
+    .blog_part .blog_text h3 {
+        margin-top: 24px;
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    .blog_part .blog_text h2 {
+        font-size: 37px;
+        line-height: 60px;
+    }
+    .blog_part .blog_text p {
+        font-size: 13px;
+        line-height: 23px;
+        margin: 10px 0;
+        text-align: justify;
+    }
+    .blog_part .blog_text a {
+        font-size: 15px;
+    }
+
+/* =========information responsive css==== */
+    #information .banner-2 {
+        padding: 200px 0 15px;
+    }
+    #information .banner-2 .text h3 {
+        font-size: 16px;
+    }
+    #information .banner-2 .text h2 {
+        width: 100%;
+        font-size: 45px;
+        line-height: 50px;
+        margin: 10px 0;
+    }
+    #information .banner-2 .text p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+    #information .banner-2 .text a {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+/* =========contact_us responsive css===== */
+    #contact_us {
+        margin: 20px 0 10px;
+    }
+    #contact_us .top h2 {
+        font-size: 35px;
+        line-height: 65px;
+    }
+    #contact_us .top h5 {
+        font-size: 18px;
+    }
+    #contact_us .top button {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 10px 14px;
+    }
+    #contact_us .left h3 {
+        font-size: 37px;
+        width: 100%;
+        margin: 25px 0 15px;
+        line-height: 50px;
+    }
+    #contact_us .left a {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #contact_us .left .icons i {
+        font-size: 18px;
+        height: 35px;
+        width: 35px;
+        line-height: 33px;
+    }
+    #contact_us h4 {
+        margin: 25px 0 15px;
+    }
+    #contact_us ul li {
+        font-size: 18px;
+        margin-top: 7px;
+    }
+    
+/* =========footer responsive css========= */
+    #footer{
+        padding: 10px 0 15px !important;
+    }
+    #footer p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/* =========navbar responsive css========= */
+    #navbar {
+        background: rgba(0, 0, 0, .4);
+        
+    }
+    #navbar .navbar-brand {
+        font-size: 35px;
+    }
+    #navbar .navbar-toggler {
+        border: none;
+        color: white;
+        font-size: 30px;
+        rotate: 180deg;
+    }
+    #navbar .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #navbar .navbar-nav .nav-item .nav-link {
+        display: inline-block;
+    }
+
+/* =========banner_part responsive css==== */
+    #banner_part .text h2 {
+        margin-bottom: 24px;
+    }
+    #banner_part .text h1 {
+        font-size: 85px;
+        line-height: 90px;
+    }
+    #banner_part .text h3 {
+        margin-top: 20px;
+        font-size: 65px;
+    }
+
+/* =========blog_part responsive css====== */
+    .blog_part {
+        padding: 100px 0;
+    }
+    .blog_part .blog_text h3 {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .blog_part .blog_text h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .blog_part .blog_text p {
+        font-size: 12px;
+        line-height: 22px;
+        margin: 10px 0;
+    }
+    .blog_part .blog_text a {
+        font-size: 15px;
+    }
+
+/* =========information responsive css==== */
+    #information .banner-2 {
+        padding: 200px 0 15px;
+    }
+    #information .banner-2 .text h3 {
+        font-size: 16px;
+    }
+    #information .banner-2 .text h2 {
+        width: 100%;
+        font-size: 45px;
+        line-height: 50px;
+        margin: 10px 0;
+    }
+    #information .banner-2 .text p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+    #information .banner-2 .text a {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+/* =========contact_us responsive css===== */
+    #contact_us {
+        margin: 20px 0 10px;
+    }
+    #contact_us .top h2 {
+        font-size: 35px;
+        line-height: 65px;
+    }
+    #contact_us .top h5 {
+        font-size: 18px;
+    }
+    #contact_us .top button {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 15px 25px;
+    }
+    #contact_us .left h3 {
+        font-size: 37px;
+        width: 100%;
+        margin: 25px 0 15px;
+        line-height: 50px;
+    }
+    #contact_us .left a {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #contact_us .left .icons i {
+        font-size: 18px;
+        height: 35px;
+        width: 35px;
+        line-height: 33px;
+    }
+    #contact_us h4 {
+        margin: 25px 0 15px;
+    }
+    #contact_us ul li {
+        font-size: 18px;
+        margin-top: 7px;
+    }
+    
+/* =========footer responsive css========= */
+    #footer{
+        padding: 10px 0 15px !important;
+    }
+    #footer p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+/* =========blog_part responsive css====== */
+    .blog_part .blog_text h2 {
+        font-size: 45px;
+        line-height: 57px;
+    }
+    .blog_part .blog_text p {
+        line-height: 27px;
+    }
+
+/* =========information responsive css==== */
+    #information .banner-2 {
+        padding: 400px 0 30px;
+    }
+    #information .banner-2 .text h2 {
+        width: 750px;
+        font-size: 45px;
+        line-height: 50px;
+        margin: 15px 0;
+    }
+    #information .banner-2 .text p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 750px;
+    }
+
+/* =========contact_us responsive css===== */
+    #contact_us {
+        margin: 20px 0 30px;
+    }
+    #contact_us .top h2 {
+        font-size: 30px;
+        line-height: 65px;
+    }
+    #contact_us .top h5 {
+        font-size: 18px;
+    }
+    #contact_us .top button {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 15px 25px;
+    }
+    #contact_us .left h3 {
+        font-size: 30px;
+        width: 100%;
+        margin: 25px 0 15px;
+        line-height: 50px;
+    }
+    #contact_us .left a {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #contact_us .left .icons i {
+        font-size: 18px;
+        height: 35px;
+        width: 35px;
+        line-height: 33px;
+    }
+    #contact_us h4 {
+        margin: 25px 0 15px;
+    }
+    #contact_us ul li {
+        font-size: 18px;
+        margin-top: 7px;
+    }
+    
+/* =========footer responsive css========= */
+    #footer{
+        padding: 10px 0 25px !important;
+    }
+    #footer p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
