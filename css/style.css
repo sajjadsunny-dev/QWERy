@@ -1,6 +1,9 @@
 /* ===============common css================ */
 *{
     margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
 }
 body{
     background: #000;
@@ -27,7 +30,6 @@ ul,ol {
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    /* background: rgba(220, 220, 220, 0.25); */
 }
 .navbar .navbar-brand{
     font-family: var(--font);
@@ -93,7 +95,11 @@ ul,ol {
     text-transform: capitalize;
     color: #FFFFFF;
 }
-#banner_part .text h1 span{
+#banner_part .text h3{
+    font-family: var(--font);
+    font-style: normal;
+    text-transform: capitalize;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 88px;
 }
@@ -154,6 +160,7 @@ ul,ol {
     background: url(../images/banner2.jpg) no-repeat center;
     background-size: cover;
     padding: 560px 0 30px;
+    border-radius: 5px;
 }
 #information .banner-2 .text h3{
     font-family: var(--font);
@@ -208,7 +215,7 @@ ul,ol {
 #contact_us{
     margin: 50px 0;
 }
-#contact_us .top h2{
+#contact_us .top .logo{
     font-family: var(--font);
     font-style: normal;
     font-weight: 700;
@@ -281,12 +288,6 @@ ul,ol {
     border-radius: 50%;
 }
 #contact_us .left .icons i:hover{
-    font-size: 24px;
-    color: var(--font_color);
-    border-color: var(--font_color);
-}
-#contact_us .left .icons i:hover{
-    font-size: 24px;
     color: var(--font_color);
     border-color: var(--font_color);
 }
